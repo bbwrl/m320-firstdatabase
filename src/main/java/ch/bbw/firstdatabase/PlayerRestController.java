@@ -7,7 +7,6 @@ import java.util.List;
 
 @RestController
 @CrossOrigin("*")
-@RequestMapping("api")
 public class PlayerRestController {
 
     private final AppService service;

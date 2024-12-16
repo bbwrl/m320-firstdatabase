@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AppService {
 
-	private PlayerRepository playerRepository;
+	private final PlayerRepository playerRepository;
 
 	@Autowired
 	public AppService(PlayerRepository playerRepository) {

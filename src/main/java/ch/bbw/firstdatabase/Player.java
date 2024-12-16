@@ -1,7 +1,6 @@
 package ch.bbw.firstdatabase;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 import jakarta.persistence.*;
 
 @Setter
@@ -13,4 +12,5 @@ public class Player {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
 	private String name;
+
 }
